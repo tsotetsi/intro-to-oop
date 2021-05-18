@@ -8,7 +8,7 @@ class TestBusClass(unittest.TestCase):
     Testcase class for Bus
     """
     def setUp(self) -> None:
-        self.bus = Bus(10, "Red", "Tumelo")
+        self.bus = Bus(10, "Blue", "Tumelo")
 
     def test_init_method(self):
         self.assertEqual(self.bus.color, "Red", "Color should be red")
